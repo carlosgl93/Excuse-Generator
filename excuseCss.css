@@ -1,0 +1,18 @@
+.wrapper {
+    margin: auto;
+    position: relative;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 600px;
+}
+
+
+@media (min-width: 320px) {
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+ }
